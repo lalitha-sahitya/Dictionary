@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 189, 95);
+    font-family: monospace;
+}
+.container{
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(27, 104, 27, 0.8);
+    width:80%;
+}
+.heading{
+    color: rgba(27, 104, 27) ;
+}
+input{
+    height: 30px;
+    width:80%;
+    border-radius: 5px;
+    background-color: rgb(211, 249, 237);
+    outline: none;
+    border:0;
+    box-shadow: 0 3px 3px 3px rgba(0,0,0,0.3);
+}
+p{
+    font-size: 17px;
+    color: rgba(27, 104, 27) ;
+}
+.meaning-container{
+    display: none;
+}
